@@ -1,0 +1,66 @@
+.grid-container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+.row-stacked .series_section {
+	display: grid;
+	grid-template-columns: 4fr 4fr 4fr;
+	grid-column-gap: 25px;
+	grid-row-gap: 25px;
+}
+.column_section .col-1 {
+    display: grid;
+    grid-template-columns: 12fr;
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+}
+
+.column_section .col-2 {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+}
+
+.column_section .col-3 {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+}
+
+.column_section .col-4 {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+}
+
+.column_section .series_section h2 {
+    font-size: 2.5rem;
+    font-family: roboto;
+    font-weight: 400;
+}
+
+.column_section .series_section ul {
+    margin: 0;
+    padding: 0;
+}
+
+.column_section .series_section ul li ul {
+    padding-left: 17px;
+    list-style-type: disc;
+}
+
+.column_section .series_section ul li {
+    line-height: 1.6;
+}
+
+.column_section .series_section ul li a {
+    line-height: inherit;
+    color: #1779ba;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: roboto;
+}

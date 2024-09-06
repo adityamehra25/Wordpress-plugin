@@ -1,0 +1,401 @@
+.collapsible {
+   background-color: #777;
+   color: white;
+   cursor: pointer;
+   padding: 18px;
+   width: 100%;
+   border: none;
+   text-align: left;
+   outline: none;
+   font-size: 15px;
+}
+
+.active,
+.collapsible:hover {
+   background-color: #555;
+}
+
+.content {
+   padding: 0 18px;
+   display: none;
+   overflow: hidden;
+   background-color: #f1f1f1;
+}
+
+.column_section {
+   display: grid;
+   grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+   gap: 20px;
+   text-align: center;
+   padding: 10px;
+}
+
+.main_section {
+   background: #fff;
+   box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+}
+
+.layout_main h2 {
+   font-size: 19px;
+   padding: 10px;
+}
+
+.panel-collapse {
+   padding: 10px;
+}
+
+.layout_row {
+   padding: 14px 15px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   text-align: center;
+}
+
+.optionbox.active {
+   display: block !important;
+}
+
+.column_setting {
+   background: #fff;
+   border: 1px solid #ddd;
+}
+
+/* .inner_col {
+     padding: 20px 30px;
+}
+ */
+.inner_col img.column_img {
+   width: 100%;
+   /* border: none;
+     */
+}
+
+.layout_row-12 .first_col-6 {
+   display: grid;
+   grid-template-columns: 6fr 6fr;
+   gap: 25px;
+}
+
+.layout_row-12 {
+   padding: 10px;
+}
+
+.layout_row-12 select {
+   width: 100%;
+   max-width: 100%;
+   height: 44px;
+   border-radius: 10px;
+   border-color: #ccc;
+}
+
+.layout_row-12 .inner_col input {
+   display: block;
+   width: 100%;
+   height: 44px;
+   border-radius: 10px;
+   border-color: #ccc;
+   padding: 10px;
+}
+
+.layout_row-12 .inner_col lable {
+   text-transform: capitalize;
+   font-size: 15px !important;
+   font-weight: 500;
+   margin-bottom: 12px;
+   display: block;
+}
+
+.pto .inner_col {
+   padding: 0;
+}
+
+.option {
+   display: grid;
+   grid-template-columns: 6fr 6fr;
+   gap: 61px;
+}
+
+.option select {
+   width: 100% !important;
+   display: block;
+   max-width: 100% !important;
+   border-color: #ccc;
+   height: 44px;
+   border-radius: 10px;
+}
+
+.option lable {
+   text-transform: capitalize;
+   font-size: 15px !important;
+   font-weight: 500;
+   margin-bottom: 12px;
+   display: block;
+}
+
+.option_commas lable {
+   text-transform: capitalize;
+   font-size: 15px !important;
+   font-weight: 500;
+   margin-bottom: 12px;
+   display: block;
+}
+
+.option_commas textarea {
+   width: 100%;
+   border-color: #ccc;
+   border-radius: 0;
+}
+
+.Sitemap_main {
+   padding: 0 20px;
+}
+
+.list_option1 {
+   background: #fff;
+   width: 100%;
+   border: 1px solid #ddd;
+   margin: 25px 0px 10px;
+}
+
+.btn_add {
+   text-align: right;
+   margin-top: 20px;
+}
+
+.btn_add a {
+   background: #2271b1;
+   padding: 8px;
+   color: #fff;
+   text-decoration: none;
+   border-radius: 3px;
+}
+
+.heading_icon {
+   display: flex;
+   justify-content: space-between;
+   padding: 10px 10px;
+   border-bottom: 1px solid #ccc;
+}
+
+.icon i {
+   font-size: 17PX;
+   padding: 8px;
+}
+
+.heading h1 {
+   margin: 0 !important;
+   padding: 0;
+}
+
+.element select {
+   width: 100%;
+   max-width: 100%;
+   height: 44px;
+   border-radius: 10px;
+   border-color: #ccc;
+}
+
+.element {
+   /* display: flex;
+   padding: 35px 19px;
+   gap: 10px;
+   align-items: center; */
+}
+
+.right_box {
+   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+   background: #fff;
+}
+
+.right_box h2 {
+   font-size: 16px;
+   padding: 10px;
+   margin: 0;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.save_sitemap {
+   padding: 15px 10px;
+}
+
+.save_sitemap h3 {
+   font-size: 14px;
+   font-weight: 700;
+}
+
+.save_sitemap p {
+   font-size: 13px;
+   color: #7a7979;
+}
+
+.save_sitemap select {
+   width: 100%;
+   border: 1px solid #ccc;
+   height: 37px;
+   border-radius: 7px;
+   font-size: 13px;
+}
+
+.save_sitemap input[type="button"] {
+   margin-top: 12px;
+   width: 100%;
+   background: #0184ba;
+   border: navajowhite;
+   padding: 6px;
+   border-radius: 3px;
+   color: #fff;
+   font-size: 14px;
+   font-weight: 500;
+}
+
+.save_sitemap ul li {
+   margin: 0;
+   color: #7a7979;
+}
+
+.save_sitemap ul {
+   margin: 0;
+}
+
+i.fas.fa-caret-up.callapseheading {
+   transform: rotate(180deg);
+}
+
+i.fas.fa-caret-up.callapseheading.collapsed {
+   transform: rotate(0deg);
+}
+
+#wpcontent {
+   background: #f0f0f0;
+   height: auto;
+}
+
+section#sidemape {
+   padding: 10px 0;
+}
+
+.heading h1 {
+   font-size: 26px;
+   padding: 10px 0;
+   text-transform: capitalize;
+   padding: 0 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+   text-transform: capitalize !important;
+}
+
+img.active_img {
+   display: none;
+}
+
+.inner_col.active img.active_img {
+   display: block;
+}
+
+.inner_col.active img.normal_img {
+   display: none;
+}
+
+.inner_col.active {
+   background: transparent;
+}
+
+.inner_col.active,
+.collapsible:hover {
+   background: none !important;
+   ;
+}
+
+.inner_col input {
+   display: none;
+}
+
+.btn-main input[type="button"] {
+
+   width: max-content;
+   background: #0184ba;
+   border: navajowhite;
+   padding: 6px 31px;
+   border-radius: 3px;
+   color: #fff;
+   font-size: 14px;
+   font-weight: 500;
+
+   text-align: center;
+}
+
+.btn-main {
+   background: #fff;
+   padding: 15px;
+}
+
+.layout_row-12 .inner_col label {
+   font-size: 14px;
+   text-transform: capitalize;
+   font-weight: 700;
+}
+
+.optionbox.first_col-6 {
+   padding: 10px;
+}
+
+.optionbox.first_col-6 label {
+   font-weight: 700;
+   font-size: 14px;
+   text-transform: capitalize;
+}
+
+.optionbox {
+   padding: 10px;
+}
+
+.optionbox label {
+   font-weight: 700;
+   font-size: 14px;
+   text-transform: capitalize;
+}
+
+section#sidemape i {
+   color: #9ea3a7;
+   cursor: pointer;
+   padding: 10px;
+}
+
+.list_option1 i.fas.fa-caret-right.callapseheading {
+   transform: rotate(90deg);
+}
+
+.list_option1 i.fas.fa-caret-right.callapseheading.collapsed {
+   transform: rotate(0deg);
+}
+
+.heading {
+   padding: 10px 0;
+}
+
+.add_btn button {
+   background: #0184ba;
+   color: #fff;
+   padding: 5px 8px;
+   font-size: 12px;
+   border-radius: 3px;
+   border: none;
+}
+
+.add_btn {
+   display: flex;
+   justify-content: flex-end;
+}
+
+@media (max-width: 767px) {
+   .column_section {
+      grid-template-columns: 12fr;
+   }
+}
