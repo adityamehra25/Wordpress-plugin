@@ -1,0 +1,49 @@
+.multi-video-slider {
+    position: relative;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center; /* Center videos horizontally */
+}
+
+.slide-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.video-wrapper {
+    width: 100%;
+    max-width: 300px; /* Adjust based on the desired width of each video */
+    box-sizing: border-box;
+}
+
+.video-thumbnail {
+    width: 100%;
+}
+
+.play-icon-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.play-icon {
+    width: 50px; /* Adjust size as needed */
+}
+
+/* Style for pagination */
+.swiper-pagination {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #fff; /* Adjust color as needed */
+}
+
+/* Style for slide numbers */
+.swiper-pagination-fraction {
+    font-size: 14px; /* Adjust size as needed */
+}
